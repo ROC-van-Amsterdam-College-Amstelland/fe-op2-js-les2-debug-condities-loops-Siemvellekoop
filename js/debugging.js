@@ -96,7 +96,14 @@ function myFirstLoop()
 
 function myNumbers()
 {
-    //maak hier je code voor opdracht 3
+    var x;
+
+    for (var x=1; x<=100; x++){
+
+        var myText = document.getElementById("numbersText").innerHTML
+        document.getElementById("numbersText").innerHTML = myText + "<br>"  + x ;
+    }
+
 }
 
 
